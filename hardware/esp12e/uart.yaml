@@ -15,5 +15,5 @@ uart:
   id: uart8266
   tx_pin: GPIO04
   rx_pin: GPIO05
-  baud_rate: ${uart_baud_rate}
+  baud_rate: 9600
   parity: ${uart_parity}
