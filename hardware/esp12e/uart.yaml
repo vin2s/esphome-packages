@@ -13,7 +13,7 @@ logger:
 # URL: https://esphome.io/components/uart.html
 uart:
   id: uart8266
-  tx_pin: 1
-  rx_pin: 3
+  tx_pin: 5
+  rx_pin: 4
   baud_rate: ${uart_baud_rate}
   parity: ${uart_parity}
